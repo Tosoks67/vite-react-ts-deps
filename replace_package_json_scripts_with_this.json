@@ -1,0 +1,7 @@
+{
+  "dev": "npm run lint && vite",
+  "build": "npm run lint && tsc -b && vite build && npm run copyToHtdocs",
+  "lint": "eslint . && echo \u001b[1;34mESLint \u001b[0mcheck \u001b[0;32mpassed\u001b[0m",
+  "preview": "vite preview",
+  "copyToHtdocs": "echo \u001b[0;31mDo you wish to clear htdocs (XAMPP) and copy the build results there?\u001b[0m && rmdir /s C:\\xampp\\htdocs\\ && xcopy /s /i .\\dist C:\\xampp\\htdocs\\ && echo \u001b[0;32mCopied files to \u001b[0;33mhtdocs\u001b[0m"
+}
