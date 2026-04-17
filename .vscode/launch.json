@@ -10,8 +10,9 @@
                 "run",
                 "dev"
             ],
-            "console": "internalConsole",
+            "console": "integratedTerminal",
             "cwd": "${workspaceFolder}",
+            "autoAttachChildProcesses": false
         }
     ]
 }
