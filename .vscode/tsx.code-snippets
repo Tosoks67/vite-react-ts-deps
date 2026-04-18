@@ -1,0 +1,28 @@
+{
+	"React Component": {
+		"scope": "typescriptreact",
+		"prefix": "rfc",
+		"body": [
+			"export const $TM_FILENAME_BASE = () => {",
+			"    return null",
+			"}"
+		],
+		"description": "Create a new React component",
+		"isFileTemplate": true
+	},
+	"React Component with Properties": {
+		"scope": "typescriptreact",
+		"prefix": "rfcp",
+		"body": [
+			"export interface ${TM_FILENAME_BASE}Props {",
+			"    $1",
+			"}",
+			"",
+			"export const $TM_FILENAME_BASE = ({$2}: ${TM_FILENAME_BASE}Props) => {",
+			"    return null",
+			"}"
+		],
+		"description": "Create a new React component with properties",
+		"isFileTemplate": true
+	}
+}
