@@ -4,7 +4,7 @@
 		"prefix": "rfc",
 		"body": [
 			"export const $TM_FILENAME_BASE = () => {",
-			"    return null",
+			"    return null$0",
 			"}"
 		],
 		"description": "Create a new React component",
@@ -19,10 +19,21 @@
 			"}",
 			"",
 			"export const $TM_FILENAME_BASE = ({$2}: ${TM_FILENAME_BASE}Props) => {",
-			"    return null",
+			"    return null$0",
 			"}"
 		],
 		"description": "Create a new React component with properties",
+		"isFileTemplate": true
+	},
+	"Function named after file": {
+		"scope": "typescript",
+		"prefix": "fnf",
+		"body": [
+			"export const $TM_FILENAME_BASE = ($1) => {",
+			"    return null$0",
+			"}"
+		],
+		"description": "Create a new function named after the file",
 		"isFileTemplate": true
 	}
 }
