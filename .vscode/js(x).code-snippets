@@ -1,6 +1,6 @@
 {
     "React Component": {
-        "scope": "typescriptreact",
+        "scope": "javascriptreact",
         "prefix": "rfc",
         "body": [
             "export const $TM_FILENAME_BASE = () => {",
@@ -12,14 +12,10 @@
         "isFileTemplate": true
     },
     "React Component with Properties": {
-        "scope": "typescriptreact",
+        "scope": "javascriptreact",
         "prefix": "rfcp",
         "body": [
-            "export interface ${TM_FILENAME_BASE}Props {",
-            "    $1",
-            "};",
-            "",
-            "export const $TM_FILENAME_BASE = ({ $2 }: ${TM_FILENAME_BASE}Props) => {",
+            "export const $TM_FILENAME_BASE = ({ $2 }) => {",
             "    return null;$0",
             "};",
             ""
@@ -28,7 +24,7 @@
         "isFileTemplate": true
     },
     "Function named after file": {
-        "scope": "typescript",
+        "scope": "javascript",
         "prefix": "fnf",
         "body": [
             "export const $TM_FILENAME_BASE = ($1) => {",
